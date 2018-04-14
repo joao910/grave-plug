@@ -1,0 +1,64 @@
+/*-------------------------------------------------------------------------------/
+                            TITULOS ESPECIAIS
+-------------------------------------------------------------------------------*/
+/* QUEEN
+-------------------------------------------------------------------------------*/
+#user-lists .list .user.id-28970874 .name:after,
+#user-rollover.id-28970874 .meta .username:after,
+#chat [data-cid^='28970874-'] .un:after {
+    content: " QUEEN";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 17px 0px 0px;
+    border: 1px solid rgba(206, 26, 8,.5);
+    border-radius: 5px;
+    color: rgb(206, 26, 8);
+    font-size: 10px;
+}
+ 
+#user-lists .list .user.id-28970874 .name:before {
+    content: url(https://i.imgur.com/4JZJrPN.png);
+  position: absolute;
+  top: 1px;
+  left: 92px
+}
+ 
+#user-rollover.id-28970874 .meta .username:before {
+  content: url(https://i.imgur.com/4JZJrPN.png);
+  position: absolute;
+  top: 1px;
+  left: 96px
+}
+ 
+#chat [data-cid^='28970874-'] .un:before {
+  content: url(https://i.imgur.com/4JZJrPN.png);
+  position: absolute;
+  top: 1px;
+  left: 108px
+}
+ 
+/*===================================== BORDA DO USUARIO */
+#user-rollover.id-28970874 .meta .thumb {
+    border-color: rgba(206,10,10,.8) !important;
+}
+ 
+ 
+/* KING
+-------------------------------------------------------------------------------*/
+#user-lists .list .user.id-30962958 .name:after,
+#user-rollover.id-30962958 .meta .username:after,
+#chat [data-cid^='30962958-'] .un:after {
+    content: "KING";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(206,10,10,.5);
+    border-radius: 5px;
+    color: #ce0a0a;
+    font-size: 10px;
+}
+ 
+/*===================================== BORDA DO USUARIO */
+#user-rollover.id-30962958 .meta .thumb {
+    border-color: rgba(206,10,10,.8) !important;
+}
