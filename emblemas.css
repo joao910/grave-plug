@@ -1,0 +1,23 @@
+/* emblemas custom */
+
+/* General */
+#user-rollover .info .badge-box,
+#chat-messages .badge-box {
+    background: none !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+/* Biazxx */
+#user-rollover.id-28970874 .badge-box i.bdg,
+.id-28970874 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/0GlayTf.png");
+}
+
+/* ŁƗŁ ƤΔΜƤ€Ř2 */
+#user-rollover.id-26609840 .badge-box i.bdg,
+.id-30962958 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/Fawms5B.png");
+}
+
